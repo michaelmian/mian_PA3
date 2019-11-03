@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b335a931-1c25-4ee1-ac52-a7105dacf8bf" name="Default Changelist" comment="" />
+    <list default="true" id="9e1a1a00-d8f2-414e-8334-3b0bdf3a1a79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mian_p1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mian_p1/src/DuplicateRemover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mian_p1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mian_p1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mian_p1/out/production/mian_p1/mian_p1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mian_p1/src/mian_p1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mian_p2/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mian_p2/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mian_p2/SavingsAccount/SavingsAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SavingsAccount.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +26,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1SRglitYA4VZxpIiRTfarPZWrbc" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1T5VNzrmmwe1Xfo3G4tvgGlIMBa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -28,9 +43,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="mian_p2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuplicateCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DuplicateCounter" />
       <module name="mian_p2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -39,6 +61,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.DuplicateCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -47,12 +70,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b335a931-1c25-4ee1-ac52-a7105dacf8bf" name="Default Changelist" comment="" />
-      <created>1571531974906</created>
+      <changelist id="9e1a1a00-d8f2-414e-8334-3b0bdf3a1a79" name="Default Changelist" comment="" />
+      <created>1572749907226</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571531974906</updated>
+      <updated>1572749907226</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

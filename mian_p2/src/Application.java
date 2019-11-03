@@ -1,30 +1,12 @@
-import SavingsAccount.*;
+import java.io.IOException;
 
-public class Application {
-    public static void main(String[] args) {
-        SavingsAccount saver1 = new SavingsAccount();
-        SavingsAccount saver2 = new SavingsAccount();
+public class Application extends DuplicateCounter {
+    public static void main(String[] args) throws IOException {
+        DuplicateCounter duplicateCounter = new DuplicateCounter();
 
-        saver1.setSavingsBalance(2000.00);
-        saver2.setSavingsBalance(3000.00);
+        duplicateCounter.count("problem2.txt");
+        duplicateCounter.write("unique_word_counts.txt");
 
-        saver1.setAnnualInterestRate(0.04);
-        saver2.setAnnualInterestRate(0.04);
-
-        saver1.calculateMonthlyInterest();
-        saver2.calculateMonthlyInterest();
-
-        saver1.printBalance();
-        saver2.printBalance();
-
-        saver1.modifyInterestRate(0.05);
-        saver2.modifyInterestRate(0.05);
-
-        saver1.calculateMonthlyInterest();
-        saver2.calculateMonthlyInterest();
-
-        saver1.printBalance();
-        saver2.printBalance();
     }
 }
 
